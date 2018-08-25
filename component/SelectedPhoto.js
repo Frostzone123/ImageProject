@@ -16,7 +16,7 @@ const SelectedPhoto = (props) => {
    //size: this.state.uri[0].size,
  };
  var form = new FormData();
- form.append("imageLink", photo);
+ form.append("file", photo);
 
  const config = {
   method: 'POST',
