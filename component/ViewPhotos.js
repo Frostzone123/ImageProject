@@ -37,8 +37,10 @@ class ViewPhotos extends Component {
 
     if (showSelectedPhoto) {
       return (
+        
         <SelectedPhoto
           uri={uri} />
+          
       )
     }
     return (
